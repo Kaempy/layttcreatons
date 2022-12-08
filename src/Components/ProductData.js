@@ -4,20 +4,20 @@ export const products = [
     {
         id: 1,
             name: "Ankara-Handbags",
-            description: "description 1",
+        description: "Fashionable Handbags of different sizes and designs made with the best quality African fabric well tailored according to custom specification and choice of customers ",
         price: 5000,
             // image: "../images/ankara-handbag.jpg"
     },
         
         { id:2,
             name: "Ankara-slides",
-            description: "description 2",
+            description: "our matching slides with bags does justice to making you look fabulous and classy ",
             price: 3000
     },
         
         { id:3,
             name: "turban",
-            description: "description 3",
+            description: "Best quality turbans u can bet on to crown your beauty and diferent designs available to meet specifications custom sizes and designs available ",
             price: 2000
     },
         
@@ -34,7 +34,7 @@ export const products = [
     
     { id:6,
         name: "Tote gift bags",
-        description: "Reusable gift bags with custom sizes for all occassions ",
+        description: "Reusable gift bags of different sizes with custom sizes for all occassions ",
         moq:50,
         price: 500
     }, 
