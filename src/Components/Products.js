@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import { Link } from 'react-router-dom';
 import {products} from './ProductData';
 
@@ -13,9 +13,9 @@ const Products = () => {
       <div>
         {products.map((product) => {
           const { id, name, price } = product;
-          console.log(id, name,price)
+          console.log(id, name, price);
           return (
-            <div className="card---margin--padd"key={product.id}  >
+            <div className="card---margin--pad" key={product.id}  >
             
               <h3>
                 {name}
@@ -25,7 +25,7 @@ const Products = () => {
               </p>
               <Link to={`/details/${id}`}>More Info</Link>
             </div>
-          )
+          );
         })}
       </div>
     </div>
